@@ -1,0 +1,91 @@
+
+
+Installation
+
+- Install regular version of Eclipse
+- Download and install Python
+- Set the environment variable
+	- C:\Python34
+	- C:\Python34\Scripts 
+- Open command promp and type "python", it will display the version if environment variable it properly set
+- Add Addon "pydev" in eclipse from Market place
+
+
+- Create New Project
+- While creating the project, configure your python interpretor with "configure automatic" option.
+- 
+
+Install supporting python tools
+	- python -m pip install --upgrade pip setuptools wheel
+
+Install/add through external selenium library
+	- download "selenium-3.13.0.tar.gz" from https://pypi.org/project/selenium/#files
+	- put in any folder and unzip it 
+	- Right click on project --> Properties --> PYTHANPATH --> external library tab --> add source folder
+	- Provide unziped folder path
+	
+
+
+Install/add selenium Package with PIP-
+	Install selenium 	
+		pip install selenium==3.5.0
+	UnInstall selenium
+		pip uninstall selenium==3.5.0
+
+Test Framework in python
+	- Pytest - Best .. ranked 1st, parallel automation supported
+	- nose   -2nd ranked, parallel automation supported with latest version
+	- unittest - 3rd ranked.
+
+
+Install pytest
+	 - pip install pytest
+
+
+How to run py.test in eclipse
+	- From eclipse Window->Preferences --> pydev --> PyUnit --> Change the Test runner to "Py.test runner"
+	- Right Click over the file. Run As --> Python Unit-Test
+
+
+Generate XML Report in py.test 
+	C:\Users\Anil.Kale\workspace\SeleniumPython\src\basic>py.test SeleniumFirstScriptWithPytest.py --junitxml=C:\path\to\out_report.xml
+
+Generate HTML report in py.test
+	pip install pytest-html
+
+	C:\Users\Anil.Kale\workspace\SeleniumPython\src\basic>py.test SeleniumFirstScriptWithPytest.py --html=D:\report\report1.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
