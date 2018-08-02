@@ -9,5 +9,8 @@ def myMethodReturning1():
     return 10
 
 
+def myMethodReturning2():
+    return 10
+
 i = myMethodReturning1()
 print(" value = ",i)
